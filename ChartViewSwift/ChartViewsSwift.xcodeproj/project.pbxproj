@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C856BB8B2930CA4100E3659C /* UIStackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856BB8A2930CA4100E3659C /* UIStackViewExtension.swift */; };
+		C8986DF42829677000429FC5 /* ChartViewsSwift.docc in Sources */ = {isa = PBXBuildFile; fileRef = C8986DF32829677000429FC5 /* ChartViewsSwift.docc */; };
+		C8986DF52829677000429FC5 /* ChartViewsSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = C8986DF22829677000429FC5 /* ChartViewsSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8986DFC282967F500429FC5 /* XAxisEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986DFB282967F500429FC5 /* XAxisEnum.swift */; };
+		C8986DFE282967FD00429FC5 /* ChartGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986DFD282967FD00429FC5 /* ChartGridView.swift */; };
+		C8986E002829680300429FC5 /* XAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986DFF2829680300429FC5 /* XAxisView.swift */; };
+		C8986E022829680A00429FC5 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986E012829680A00429FC5 /* BarChartView.swift */; };
+		C8986E042829680F00429FC5 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986E032829680F00429FC5 /* BarView.swift */; };
+		C8986E072829681800429FC5 /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986E052829681800429FC5 /* DotCALayer.swift */; };
+		C8986E082829681800429FC5 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986E062829681800429FC5 /* LineChartView.swift */; };
+		C8986E0A2829681D00429FC5 /* StackedBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986E092829681D00429FC5 /* StackedBarChartView.swift */; };
+		C8986E10282968CB00429FC5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986E0F282968CB00429FC5 /* Utils.swift */; };
+		C8986E132829697A00429FC5 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8986E122829697A00429FC5 /* UIViewExtension.swift */; };
+		C8F70CB128296A3F00B38E5A /* NSLayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F70CB028296A3F00B38E5A /* NSLayoutConstraintExtension.swift */; };
+		C8F70CB328296A6100B38E5A /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F70CB228296A6100B38E5A /* DoubleExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C856BB8A2930CA4100E3659C /* UIStackViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtension.swift; sourceTree = "<group>"; };
+		C8986DEF2829677000429FC5 /* ChartViewsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChartViewsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8986DF22829677000429FC5 /* ChartViewsSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewsSwift.h; sourceTree = "<group>"; };
+		C8986DF32829677000429FC5 /* ChartViewsSwift.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ChartViewsSwift.docc; sourceTree = "<group>"; };
+		C8986DFB282967F500429FC5 /* XAxisEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAxisEnum.swift; sourceTree = "<group>"; };
+		C8986DFD282967FD00429FC5 /* ChartGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartGridView.swift; sourceTree = "<group>"; };
+		C8986DFF2829680300429FC5 /* XAxisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAxisView.swift; sourceTree = "<group>"; };
+		C8986E012829680A00429FC5 /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		C8986E032829680F00429FC5 /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		C8986E052829681800429FC5 /* DotCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotCALayer.swift; sourceTree = "<group>"; };
+		C8986E062829681800429FC5 /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		C8986E092829681D00429FC5 /* StackedBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedBarChartView.swift; sourceTree = "<group>"; };
+		C8986E0F282968CB00429FC5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C8986E122829697A00429FC5 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C8F70CB028296A3F00B38E5A /* NSLayoutConstraintExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtension.swift; sourceTree = "<group>"; };
+		C8F70CB228296A6100B38E5A /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		C8F70CF92829744400B38E5A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8986DEC2829677000429FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8986DE52829677000429FC5 = {
+			isa = PBXGroup;
+			children = (
+				C8986DF12829677000429FC5 /* ChartViewsSwift */,
+				C8986DF02829677000429FC5 /* Products */,
+				C8F70CF82829744400B38E5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8986DF02829677000429FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8986DEF2829677000429FC5 /* ChartViewsSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8986DF12829677000429FC5 /* ChartViewsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C8986E0D2829687600429FC5 /* Grid */,
+				C8986E0C2829686900429FC5 /* StackedChart */,
+				C8986E0B2829685800429FC5 /* BarChart */,
+				C8986E0E2829688500429FC5 /* LineChart */,
+				C8986E112829696B00429FC5 /* Extensions */,
+				C8986E0F282968CB00429FC5 /* Utils.swift */,
+				C8986DF22829677000429FC5 /* ChartViewsSwift.h */,
+				C8986DF32829677000429FC5 /* ChartViewsSwift.docc */,
+			);
+			path = ChartViewsSwift;
+			sourceTree = "<group>";
+		};
+		C8986E0B2829685800429FC5 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				C8986E012829680A00429FC5 /* BarChartView.swift */,
+				C8986E032829680F00429FC5 /* BarView.swift */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		C8986E0C2829686900429FC5 /* StackedChart */ = {
+			isa = PBXGroup;
+			children = (
+				C8986E092829681D00429FC5 /* StackedBarChartView.swift */,
+			);
+			path = StackedChart;
+			sourceTree = "<group>";
+		};
+		C8986E0D2829687600429FC5 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				C8986DFD282967FD00429FC5 /* ChartGridView.swift */,
+				C8986DFF2829680300429FC5 /* XAxisView.swift */,
+				C8986DFB282967F500429FC5 /* XAxisEnum.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		C8986E0E2829688500429FC5 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				C8986E062829681800429FC5 /* LineChartView.swift */,
+				C8986E052829681800429FC5 /* DotCALayer.swift */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		C8986E112829696B00429FC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C8986E122829697A00429FC5 /* UIViewExtension.swift */,
+				C8F70CB028296A3F00B38E5A /* NSLayoutConstraintExtension.swift */,
+				C8F70CB228296A6100B38E5A /* DoubleExtension.swift */,
+				C856BB8A2930CA4100E3659C /* UIStackViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C8F70CF82829744400B38E5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8F70CF92829744400B38E5A /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C8986DEA2829677000429FC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8986DF52829677000429FC5 /* ChartViewsSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C8986DEE2829677000429FC5 /* ChartViewsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8986DF82829677000429FC5 /* Build configuration list for PBXNativeTarget "ChartViewsSwift" */;
+			buildPhases = (
+				C8986DEA2829677000429FC5 /* Headers */,
+				C8986DEB2829677000429FC5 /* Sources */,
+				C8986DEC2829677000429FC5 /* Frameworks */,
+				C8986DED2829677000429FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartViewsSwift;
+			productName = ChartViewSwift;
+			productReference = C8986DEF2829677000429FC5 /* ChartViewsSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8986DE62829677000429FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C8986DEE2829677000429FC5 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C8986DE92829677000429FC5 /* Build configuration list for PBXProject "ChartViewsSwift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8986DE52829677000429FC5;
+			productRefGroup = C8986DF02829677000429FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8986DEE2829677000429FC5 /* ChartViewsSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8986DED2829677000429FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8986DEB2829677000429FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8986E042829680F00429FC5 /* BarView.swift in Sources */,
+				C8986DFE282967FD00429FC5 /* ChartGridView.swift in Sources */,
+				C8986E132829697A00429FC5 /* UIViewExtension.swift in Sources */,
+				C8986DFC282967F500429FC5 /* XAxisEnum.swift in Sources */,
+				C8986E0A2829681D00429FC5 /* StackedBarChartView.swift in Sources */,
+				C8986E082829681800429FC5 /* LineChartView.swift in Sources */,
+				C8986E10282968CB00429FC5 /* Utils.swift in Sources */,
+				C8F70CB128296A3F00B38E5A /* NSLayoutConstraintExtension.swift in Sources */,
+				C8F70CB328296A6100B38E5A /* DoubleExtension.swift in Sources */,
+				C8986E022829680A00429FC5 /* BarChartView.swift in Sources */,
+				C8986E002829680300429FC5 /* XAxisView.swift in Sources */,
+				C856BB8B2930CA4100E3659C /* UIStackViewExtension.swift in Sources */,
+				C8986E072829681800429FC5 /* DotCALayer.swift in Sources */,
+				C8986DF42829677000429FC5 /* ChartViewsSwift.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8986DF62829677000429FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8986DF72829677000429FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8986DF92829677000429FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8MY2X3WBTR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eqnx.ChartViewsSwift;
+				PRODUCT_NAME = ChartViewsSwift;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8986DFA2829677000429FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8MY2X3WBTR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eqnx.ChartViewsSwift;
+				PRODUCT_NAME = ChartViewsSwift;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8986DE92829677000429FC5 /* Build configuration list for PBXProject "ChartViewsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8986DF62829677000429FC5 /* Debug */,
+				C8986DF72829677000429FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8986DF82829677000429FC5 /* Build configuration list for PBXNativeTarget "ChartViewsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8986DF92829677000429FC5 /* Debug */,
+				C8986DFA2829677000429FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8986DE62829677000429FC5 /* Project object */;
+}
